@@ -1,0 +1,89 @@
+/** @format */
+
+* {
+	border: 0;
+	margin: 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.containerDerecho {
+	background-color: #203140;
+	color: rgb(221, 207, 207);
+	display: flex;
+	flex-direction: column;
+}
+.personal,
+h4 {
+	margin: auto;
+	margin-bottom: 20px;
+}
+h1 {
+	padding-top: 40px;
+	margin: auto;
+}
+.personal {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+div {
+	margin: auto;
+	display: block;
+	width: 80%;
+}
+
+.containerDerecho img {
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.personal .info {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.info h6 {
+	margin-bottom: 15px;
+}
+
+.estudios {
+	margin-top: 15px;
+}
+
+.containerDerecho h2 {
+	border-bottom: 2px solid rgb(255, 255, 255);
+	width: 50%;
+	margin-bottom: 15px;
+}
+
+h2 {
+	border-bottom: 2px solid black;
+	width: 70%;
+	margin-bottom: 15px;
+}
+
+.estudios h6 {
+	margin-bottom: 15px;
+}
+
+.cursos {
+	width: 80%;
+	margin-top: 20px;
+}
+
+.perfil {
+	margin-top: 40px;
+}
+
+p {
+	text-align: justify;
+	margin-bottom: 30px;
+}
