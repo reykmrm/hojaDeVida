@@ -87,3 +87,19 @@ p {
 	text-align: justify;
 	margin-bottom: 30px;
 }
+
+.input {
+	width: 100%;
+	height: 20px;
+	border: 1px solid black;
+	margin: 5px;
+}
+.contacto {
+	width: 200px;
+}
+.submit{
+	width: 70%;
+	margin: auto;
+	display: block;
+	margin-bottom: 10px;
+}
